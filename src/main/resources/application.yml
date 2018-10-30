@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /shop
+  port: 8088
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
